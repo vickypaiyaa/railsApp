@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'byebug'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.16'
+gem 'rails', '4.2.11.3'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -19,7 +19,7 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.0'
+gem 'jbuilder', '~> 2.9'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
@@ -39,11 +39,11 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'tiny_tds','0.7.0'
-gem 'activerecord-sqlserver-adapter','4.1.7'
+gem 'activerecord-sqlserver-adapter','4.2.18'
 
 
 group :development, :test do
-  gem 'rspec-rails', '3.7.1'
+  gem 'rspec-rails', '4.1.2'
 end
 
 group :assets do
